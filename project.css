@@ -118,6 +118,8 @@ img{
         background-color: white;
         border-radius: 300px 0px 0px 300px;
         margin-top: 21px;
+        line-height: 20px;
+
         
     }
     .div2content{
@@ -359,7 +361,7 @@ img{
         position: relative;
     }
     .div3 div:nth-child(1){
-        width: 240px;
+        width: 280px;
         height: 230px;
         
     }
@@ -603,7 +605,7 @@ img{
         width: 500px;
         height: 400px;
         /* border: 2px solid black; */
-        margin-top: 60px;
+        margin-top: 20px;
         display:flex;
         flex-direction: row;
         justify-content:space-evenly;
@@ -611,9 +613,10 @@ img{
         
     }
     #one div{
-        width: 20vw;
-        height: 500px;
-        /* border: 2px solid beige; */
+        width: 250px;
+        height: 400px;
+        /* border: 2px solid red; */
+        
     }
     input{
         
@@ -624,19 +627,22 @@ img{
         background-color:rgb(23, 66, 52,0.6);;
     }
     .input1{
-        width: 18vw;
+        width: 230px;
         height: 40px;
         border-radius: 20px;
         font-size:25px;
         color: white;
     }
     .input2{
-        width: 18vw;
+        width: 230px;
         height: 200px;
         border-radius: 20px;
         color: white;
         font-size:25px;
         margin-top: 70px;
+    }
+    .mid{
+        width: 230px !important;
     }
     #two{
         width: 500px;
@@ -864,7 +870,7 @@ input:hover{
     color: white;
 }
 .input2{
-    width: 20vw;
+    width: 370px;
     height: 200px;
     border-radius: 20px;
     color: white;
