@@ -231,16 +231,15 @@ span{
 }
 @media screen and (max-width:480px) {
 .main_container{
-    width: 480px;
-    margin-left: 0px;
+    width: 460px;
+    height:1160px;
+    margin-left: -5px;
 }
 .navbar{
 display:flex;
 justify-content:start;
-width:480px;
+width:460px;
 height:60px;
-margin-left:1px;
-
 }
 .navbar div{
     width: 40px;
@@ -255,7 +254,7 @@ margin-left:1px;
 }
 
 .div1{
-    width:480px;
+    width:460px;
     height: 250px;
     display: flex;
     flex-direction: row;
@@ -268,7 +267,7 @@ margin-left:1px;
     
 }
    h2{
-    font-size: 22px;
+    font-size: 20px;
     margin:15px;
    } 
    p{
@@ -300,7 +299,7 @@ font-size: 22px;
 margin-left: 10px;
 }
 .div2{
-    width:480px;
+    width:460px;
     height: 250px;
     display: flex;
     flex-direction: row;
@@ -334,7 +333,7 @@ img{
         margin-top: 20px;
     }
     .div3{
-        width:480px;
+        width:460px;
         height: 250px;
         display: flex;
         flex-direction: row;
@@ -355,7 +354,7 @@ img{
         margin-top: 20px;
     }
     .div4{
-        width:480px;
+        width:460px;
         height: 250px;
         display: flex;
         flex-direction:row;
@@ -381,7 +380,7 @@ img{
         background-color:rgb(23, 66, 52,0.6);;
     }
     span{
-        font-size: 15px;
+        font-size: 12px;
         line-height: 10px;
         word-spacing: 10px;
     }
@@ -418,7 +417,7 @@ img{
         margin-top: 20px;
     }
 .div5{
-    width: 480px;
+    width: 460px;
     height: 60px;
 }
 .div5 div{
