@@ -1,0 +1,144 @@
+.main{
+    height: 1200px;
+}
+.nav1{
+    position: fixed;
+    z-index: 1;
+}
+.firstdiv{
+    height: 400px;
+    background-image:url(./images/strip-bg-01.jpg);
+    margin-top:70px !important;
+}
+.radious{
+    border-radius: 0px 200px 200px 0px;    
+}
+.seconddiv{
+    height: 400px;
+    background-image: url(./images/strip-bg-02.jpg);
+
+}
+.border2{
+ border-radius:200px 0px 0px 200px ;
+}
+.index{
+    margin-left: 100px !important;
+    text-align: justify;
+}
+
+#img1{
+  width: 100% !important;  
+  height: 100% !important; 
+  position: relative;
+  top: 0px;
+  left: 0px;
+  
+}
+
+.thirddiv{
+    height: 400px;
+
+    background-image: url(./images/strip-bg-03.jpg);
+}
+.posi{
+    position: relative;
+    top: 30px;
+}
+input{
+    height: 50px;
+    border-radius: 10px !important;
+    position: relative;
+    top: 30px;
+    background-color: rgb(38, 146, 141,0.2) !important;
+    color: white;
+    }
+   .back{
+    font-size: 20px;
+    color: white !important;
+    background-color: rgb(38, 146, 141,0.2) !important;
+
+   }
+    .message{
+        position: relative;
+        top: 60px;
+        
+    }
+    a:hover{
+        background-color: rgb(45, 20, 20,0.3) ;
+    }
+    .but{
+        width: 250px;
+        background-color: rgb(38, 146, 141,0.2) !important;
+        border: 1px solid white ;
+    }
+    .fourdiv{
+        height: 400px;
+        background-image: url(./images/strip-bg-04.jpg);
+    }
+    
+    .lastdiv{
+        background-image: url(./images/strip-bg-05.jpg);
+    }
+@media screen and (max-width:980px){
+    .firstdiv{
+        height: 220px;
+    }
+    h2{
+        font-size: 13px;
+
+    }
+    p{
+        font-size: 8px;
+        line-height: 13px;
+    }
+    .radiou{
+        overflow: scroll;
+    }
+
+        .radiou::-webkit-scrollbar {
+            width: 0; 
+          }
+          
+          .radiou {
+            -ms-overflow-style: none; 
+            scrollbar-width: none; 
+          }
+          .seconddiv{
+            height: 220px;   
+        }
+        img{
+            width: 150px;
+            position:relative;
+            top: 60px;
+            left: 20px;
+            
+        }
+        .index{
+            margin-left: 60px !important;
+            margin-top: 10px;
+        }
+        .thirddiv{
+            height: 220px;   
+
+        }
+        input{
+            height: 40px;
+            border-radius: 10px !important;
+            position: relative;
+            top: 3px;
+            }
+            .message{
+                position: relative;
+                top: 5px;
+                
+            }
+            .but{
+                width: 70px;
+                margin-left:0px;
+            }
+            .fourdiv{
+                height: 220px;
+         
+            }
+    }
+   
